@@ -40,4 +40,4 @@ jobs:
         run: |
           git_hash=$(git rev-parse --short "$GITHUB_SHA")
           echo $git_hash
-          echo "mypath" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+          echo "mypath" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8
